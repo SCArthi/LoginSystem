@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
 	
-	include_once 'dbh.inc.php';
+	include_once "dbh.inc.php";
 
 	$first =mysqli_real_escape_string($conn, $_POST['first']);
 	$last =mysqli_real_escape_string($conn, $_POST['last']);
@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 				exit();
 			}else {
 				$sql = "SELECT * FROM users WHERE user_uid ='$uid'";
-				$result = mysql_query($conn, $sql);
+				$result = mysqli_query($conn, $sql);
 				$resultCheck = mysqli_num_rows($result);
 
 				if ($resultCheck > 0) {

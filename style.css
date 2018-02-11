@@ -197,7 +197,7 @@ header .nav-login a{
     text-align: center;
 }
 
-/*sihnup.php*/
+/*signup.php*/
 
 .signup-form {
     width: 400px;
@@ -219,7 +219,7 @@ header .nav-login a{
 }
 
 .signup-form button{
-    display: block;
+   /* display: block;*/
     margin: 0 auto;
     width: 30%;
     height: 40px;

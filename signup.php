@@ -12,6 +12,7 @@
 				<input type="text" name="uid" placeholder="User Name">
 				<input type="Password" name="pwd" placeholder="Password">
 				<button type="submit" name="submit">Sign Up</button>
+				<button type="reset" name="reset" style="float: right;">Clear</button>
 			</form>
 		</div>	
 	</section>
